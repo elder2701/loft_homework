@@ -1,0 +1,148 @@
+
+  #container {
+    width: 620px;
+    height: 455px;
+    margin: 0 auto
+  }
+
+  #rightInput {
+    margin-left: 105px
+  }
+
+  #leftBar,  #rightBar {
+    width: 307px;
+    height: 325px;
+    overflow: auto;
+    display: inline-block;
+    overflow-x: hidden;
+  }
+  #avatar {
+    height: 50px;
+  }
+
+  ul { 
+    list-style-type: none; 
+    padding:0;
+    margin: 5px;
+    height: 100%
+  }
+
+  .person{
+    margin: 10px
+  }
+
+  #title {
+    height: 50px;
+    width: 620px;
+    background: #ff8663;
+    border-radius: 10px 10px 0 0;
+    color:white;
+  
+  }
+ .barContainer {
+  width: 307px;
+  height: 350px;
+  background: white;
+  display: inline-block
+ }
+
+ .personContainer {
+   display: flex;
+   align-items: center;
+ }
+
+ .avatar {
+  border-radius: 100px;
+ }
+
+ .yourFriends{
+  width: 300px;
+  height: 20px;
+  display: inline-block;
+  margin: 5px 5px;
+  color: #4f4f4f;
+  font-weight: bold;
+ }
+ #footer {
+   width: 618px;
+   height: 50px;
+   background: #f0f0f0;
+   position: relative;
+   border-radius: 0 0 10px 10px;
+ }
+ #save{
+   background: #ff8663;
+   position: absolute;
+   top:10px;
+   left: 500px;
+   color: white;
+   outline: none;
+   padding: 5px;
+   border-radius: 10px;
+ }
+
+.btnEvt {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: 0;
+  position: relative;
+  outline: none;
+}
+
+.btnEvt:after, .btnEvt:before {
+  content: "";
+  display: flex;
+  width: 20px;
+  height: 5px;
+  background-color: #2f2f2f;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+}
+
+#rightList .btnEvt:before
+{
+  transform: rotate(45deg)
+}
+
+#rightList .btnEvt:after
+{
+  transform: rotate(-45deg)
+}
+
+
+#leftList .btnEvt:after {
+  transform: rotate(90deg)
+}
+
+
+
+ table {
+   width: 268px;
+ }
+ input {
+   border-radius: 10px;
+   border: 1px solid;
+   border-color: white;
+   outline: none;
+   margin: 5px 5px 5px 5px;
+   width:200px;
+ }
+ 
+ .inputs {
+   width: 620px;
+   height: 50px;
+   background: #f0f0f0;
+   display: flex;
+ }
+ #headerText {
+  padding-top: 15px;
+  padding-left: 15px;
+ }
+ #button {
+   border-radius: 14px;
+   width: 28px;
+   height: 28px;
+ }
+
