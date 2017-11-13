@@ -1,9 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>{{htmlWebpackPlugin.options.title}}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="src/index.js"></script> 
 </head>
 <body>
+    <div id="map">
+        <div id="modal">
+		    <div class="header">
+			    <span id='address'></span>
+			    <button id="cancel"></button>
+		    </div>
+		    <div id="reviews-block"></div>
+		    <div id="review-item">
+			    <div class="review-header">Ваш отзыв</div>
+			    <input id="name" placeholder="Ваше имя">
+			    <input id="place" placeholder="Укажите место">
+			    <textarea id="review" rows="4" placeholder="Поделитесь впечатлениями"></textarea>
+			    <button id="save">Добавить</button>
+		    </div>
+	    </div>
+    </div>
 </body>
 </html>
